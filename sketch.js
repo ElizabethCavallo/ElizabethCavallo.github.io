@@ -14,6 +14,7 @@ var mellow = false;
 var happy = false;
 var pumped = false;
 var romantic = false;
+var PUBNUB;
 
 var pollOptions = {
     eon: {
