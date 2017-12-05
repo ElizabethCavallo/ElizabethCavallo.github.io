@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--   Add p5 library and your sketch file to the list of scripts -->
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.4.4.js"></script>
+    <script type="text/javascript" src="http://pubnub.github.io/eon/v/eon/0.0.10/eon.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://pubnub.github.io/eon/v/eon/0.0.10/eon.css" />
+    <script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script> -->
+     <script src="scripts/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.sound.min.js"></script>
+    <script src="scripts/p5bots.js"></script>
+    <script src="sketch.js"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+</head>
+<body>
+
+
+<div class= "container-fluid bg-1 text-center">
+        <h3><font size= "7"> Programming Final</font></h3>
+              <h3><font size= "6"> Choose your Color</font></h3>
+
+
+
+  <img id="myLight" src="img/Red Lights.jpg" alt="Lights" style="height: 360px; ;"> 
+<p> 
+  <div class= "container-fluid bg-1 text-center">
+<p>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" onclick="document.getElementById('myLight').src='img/Red Lights.jpg';lightDownAll();lightUpRed();">Red</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" onclick="document.getElementById('myLight').src='img/Green Lights.jpg'">Green</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" onclick="document.getElementById('myLight').src='img/Blue Lights.jpg'">Blue</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" onclick="document.getElementById('myLight').src='img/Purple Lights.jpg'">Purple</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" onclick="document.getElementById('myLight').src='img/Teal Lights.jpg'">Teal</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+</p>
+
+
+</div>
+
+<div class= "container-fluid bg-1 text-center">
+
+      <h3><font size= "7"> What's the Mood?</font></h3>
+  <img id="myImage" src="img/Happy Party.jpg" alt="Happy Party" style="height: 400px; ;"> 
+</div>
+
+<!-- 
+<div id="poll" class= "container-fluid bg-1 text-center">
+<p>
+
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" name="mood" type="submit" value="happy" onclick="document.getElementById('myImage').src='img/Happy Party.jpg';Happy();;">Happy</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" name="mood" type="submit" value="mellow" onclick="document.getElementById('myImage').src='img/Mellow Party.jpg';Mellow();;">Mellow</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" name="mood" type="submit" value="pumped" onclick="document.getElementById('myImage').src='img/Pumped Party.jpg';Pumped();;">Pumped</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+<button class="btn btn-default btn-lg" name="mood" type="submit" value="romantic" onclick="document.getElementById('myImage').src='img/Romantic Party.jpg';Romantic();;">Romantic</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+
+</p>
+<button class="btn btn-default btn-lg" onclick="stopMusic();">Skip</button>
+       &nbsp;&nbsp; 
+       &nbsp;&nbsp; 
+
+</div> -->
+<div>
+  <div id="myContainer">
+
+</div>
+
+<div>
+    <div class = "container">
+    </div>
+    <div id="chart"></div>
+    <script src="sketch.js"></script> 
+    </div>
+    </div>
+  </div>
+</p>
+</div>
+  </body>
+</html>

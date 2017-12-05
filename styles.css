@@ -1,0 +1,160 @@
+/* Create four equal columns that floats next to each other */
+/*.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}*/
+a:link {
+    color: #D9DBF1;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: #D9DBF1;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+h3 {
+  font-size: 6;
+  text-align: center;
+  background color: #392F5A;
+  color: #D9DBF1;
+}
+
+h2 {
+  font-size: 6;
+  text-align: center;
+  background color: #392F5A;
+  color: #ffffff;
+
+}
+
+
+
+.bg-1 { 
+      font-family: "trebuchet";
+      background-color: #392F5A ; 
+      color: #D9DBF1;
+  }
+  
+  .bg-2 { 
+          background-color: #D9DBF1 
+      color: #392F5A;
+
+  }
+  .bg-3 { 
+      background-color: #392F5A ; 
+      color: #D9DBF1;
+  }
+  .bg-4 { 
+          background-color: #D9DBF1 
+      color: #392F5A;
+}
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.divider{
+    width:1px;
+    display:inline-block;
+}
+
+/*all buttons have same width, pos, etc. only difference is color */
+a: hover {
+     background-color: #927FB8;
+}
+#buttonHappy {
+    background-color:#927FB8;
+}
+#buttonMellow {
+    background-color:#927FB8;
+}
+#buttonPumped {
+    background-color:#927FB8;
+}
+#buttonRomantic {
+    background-color:#927FB8;
+}
+
+
+#logoDiv {
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#logoDiv img{
+  width:125px;
+  height:100px;
+}
+
+#autoPostStatus {
+    margin-top: 3%;
+    margin-left: 4%;
+    background-color: #3b5998;
+    border: none;
+    color: white; /*fb blue color */
+    text-align: center;
+    padding: 12px 28px;
+    font-size: 16px;
+}
+
+#twitterButton {
+  margin-top: -7%;
+  margin-left:55%;
+  margin-right:55%;
+}
+
+#chart {
+    width: 80%;
+    height: 550px;
+    top: 25%;
+    background-color: #927FB8;
+    margin-left: 10%;
+}
+
+h2 {
+    color: #cc33ff;
+    margin-left: 3%;
+    font-size: 50px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top left;
+}
+
+footer {
+  float:right;
+  background-color:#927FB8;
+  text-align:center;
+  right:0;
+  width:40%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:5%;
+    width:100%;
+  font-size:1.5em;
+  color: black;
+    vertical-align: center;
+    line-height: 60px;
+}
+
+footer a {
+  color: #f5dfdf;
+}
