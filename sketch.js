@@ -268,13 +268,13 @@ function Happy(){
  if(Hsong1.isPlaying() || Hsong2.isPlaying() || Hsong3.isPlaying() || Hsong4.isPlaying() || Hsong5.isPlaying() || Hsong6.isPlaying() || 
   Hsong7.isPlaying() || Hsong8.isPlaying()){
 }
- if(Msong1.isPlaying() || Msong2.isPlaying() || Msong3.isPlaying() || Msong4.isPlaying() || Msong5.isPlaying() || Msong6.isPlaying() || 
-  Msong7.isPlaying() || Msong8.isPlaying() || Psong1.isPlaying() || Psong2.isPlaying() || Psong3.isPlaying() || Psong4.isPlaying() || 
-   Psong5.isPlaying() || Psong6.isPlaying() || Psong7.isPlaying() || Psong8.isPlaying() || Rsong1.isPlaying() || Rsong2.isPlaying() ||
-   Rsong3.isPlaying() || Rsong4.isPlaying() || Rsong5.isPlaying() || Rsong6.isPlaying() || Rsong7.isPlaying() || Rsong8.isPlaying()){
- stopMusic();
- startPlayingH();
- }
+//  if(Msong1.isPlaying() || Msong2.isPlaying() || Msong3.isPlaying() || Msong4.isPlaying() || Msong5.isPlaying() || Msong6.isPlaying() || 
+//   Msong7.isPlaying() || Msong8.isPlaying() || Psong1.isPlaying() || Psong2.isPlaying() || Psong3.isPlaying() || Psong4.isPlaying() || 
+//    Psong5.isPlaying() || Psong6.isPlaying() || Psong7.isPlaying() || Psong8.isPlaying() || Rsong1.isPlaying() || Rsong2.isPlaying() ||
+//    Rsong3.isPlaying() || Rsong4.isPlaying() || Rsong5.isPlaying() || Rsong6.isPlaying() || Rsong7.isPlaying() || Rsong8.isPlaying()){
+//  stopMusic();
+//  startPlayingH();
+//  }
  else{
   startPlayingH();
 }
@@ -331,13 +331,13 @@ function Mellow(){
  if(Msong1.isPlaying() || Msong2.isPlaying() || Msong3.isPlaying() || Msong4.isPlaying() || Msong5.isPlaying() || Msong6.isPlaying() || 
   Msong7.isPlaying() || Msong8.isPlaying()){ 
 }
- if( Hsong1.isPlaying() || Hsong2.isPlaying() || Hsong3.isPlaying() || Hsong4.isPlaying() || Hsong5.isPlaying() || Hsong6.isPlaying() || 
-  Hsong7.isPlaying() || Hsong8.isPlaying() || Psong1.isPlaying() || Psong2.isPlaying() || Psong3.isPlaying() || Psong4.isPlaying() || 
-   Psong5.isPlaying() || Psong6.isPlaying() || Psong7.isPlaying() || Psong8.isPlaying() || Rsong1.isPlaying() || Rsong2.isPlaying() ||
-   Rsong3.isPlaying() || Rsong4.isPlaying() || Rsong5.isPlaying() || Rsong6.isPlaying() || Rsong7.isPlaying() || Rsong8.isPlaying()){
- stopMusic();
- startPlayingM();
- }
+//  if( Hsong1.isPlaying() || Hsong2.isPlaying() || Hsong3.isPlaying() || Hsong4.isPlaying() || Hsong5.isPlaying() || Hsong6.isPlaying() || 
+//   Hsong7.isPlaying() || Hsong8.isPlaying() || Psong1.isPlaying() || Psong2.isPlaying() || Psong3.isPlaying() || Psong4.isPlaying() || 
+//    Psong5.isPlaying() || Psong6.isPlaying() || Psong7.isPlaying() || Psong8.isPlaying() || Rsong1.isPlaying() || Rsong2.isPlaying() ||
+//    Rsong3.isPlaying() || Rsong4.isPlaying() || Rsong5.isPlaying() || Rsong6.isPlaying() || Rsong7.isPlaying() || Rsong8.isPlaying()){
+//  stopMusic();
+//  startPlayingM();
+//  }
   else{
     startPlayingM();
 }
@@ -393,13 +393,13 @@ function Pumped(){
  if(Psong1.isPlaying() || Psong2.isPlaying() || Psong3.isPlaying() || Psong4.isPlaying() || 
    Psong5.isPlaying() || Psong6.isPlaying() || Psong7.isPlaying() || Psong8.isPlaying()){ 
 }
- if( Hsong1.isPlaying() || Hsong2.isPlaying() || Hsong3.isPlaying() || Hsong4.isPlaying() || Hsong5.isPlaying() || Hsong6.isPlaying() || 
-  Hsong7.isPlaying() || Hsong8.isPlaying() | |Msong1.isPlaying() || Msong2.isPlaying() || Msong3.isPlaying() || Msong4.isPlaying() ||
-    Msong5.isPlaying() || Msong6.isPlaying() || Msong7.isPlaying() || Msong8.isPlaying || Rsong1.isPlaying() || Rsong2.isPlaying() ||
-   Rsong3.isPlaying() || Rsong4.isPlaying() || Rsong5.isPlaying() || Rsong6.isPlaying() || Rsong7.isPlaying() || Rsong8.isPlaying()){
- stopMusic();
- startPlayingP();
- }
+//  if( Hsong1.isPlaying() || Hsong2.isPlaying() || Hsong3.isPlaying() || Hsong4.isPlaying() || Hsong5.isPlaying() || Hsong6.isPlaying() || 
+//   Hsong7.isPlaying() || Hsong8.isPlaying() | |Msong1.isPlaying() || Msong2.isPlaying() || Msong3.isPlaying() || Msong4.isPlaying() ||
+//     Msong5.isPlaying() || Msong6.isPlaying() || Msong7.isPlaying() || Msong8.isPlaying || Rsong1.isPlaying() || Rsong2.isPlaying() ||
+//    Rsong3.isPlaying() || Rsong4.isPlaying() || Rsong5.isPlaying() || Rsong6.isPlaying() || Rsong7.isPlaying() || Rsong8.isPlaying()){
+//  stopMusic();
+//  startPlayingP();
+//  }
  else{
   startPlayingP();
 }
@@ -457,13 +457,13 @@ function Romantic(){
  if(Rsong1.isPlaying() || Rsong2.isPlaying() ||
    Rsong3.isPlaying() || Rsong4.isPlaying() || Rsong5.isPlaying() || Rsong6.isPlaying() || Rsong7.isPlaying() || Rsong8.isPlaying()){
 }
- if( Hsong1.isPlaying() || Hsong2.isPlaying() || Hsong3.isPlaying() || Hsong4.isPlaying() || Hsong5.isPlaying() || Hsong6.isPlaying() || 
-  Hsong7.isPlaying() || Hsong8.isPlaying() ||Msong1.isPlaying() || Msong2.isPlaying() || Msong3.isPlaying() || Msong4.isPlaying() ||
-    Msong5.isPlaying() || Msong6.isPlaying() || Msong7.isPlaying() || Msong8.isPlaying || Psong1.isPlaying() || Psong2.isPlaying() || 
-    Psong3.isPlaying() || Psong4.isPlaying() ||  Psong5.isPlaying() || Psong6.isPlaying() || Psong7.isPlaying() || Psong8.isPlaying()){ 
- stopMusic();
- startPlayingR();
- }
+//  if( Hsong1.isPlaying() || Hsong2.isPlaying() || Hsong3.isPlaying() || Hsong4.isPlaying() || Hsong5.isPlaying() || Hsong6.isPlaying() || 
+//   Hsong7.isPlaying() || Hsong8.isPlaying() ||Msong1.isPlaying() || Msong2.isPlaying() || Msong3.isPlaying() || Msong4.isPlaying() ||
+//     Msong5.isPlaying() || Msong6.isPlaying() || Msong7.isPlaying() || Msong8.isPlaying || Psong1.isPlaying() || Psong2.isPlaying() || 
+//     Psong3.isPlaying() || Psong4.isPlaying() ||  Psong5.isPlaying() || Psong6.isPlaying() || Psong7.isPlaying() || Psong8.isPlaying()){ 
+//  stopMusic();
+//  startPlayingR();
+//  }
  else{
   startPlayingR();
 }
