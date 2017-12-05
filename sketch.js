@@ -266,8 +266,6 @@ function drawChart() {
     });
   }
 
- drawChart();
-
 // function draw() {
 //   background(0);
 //   fill(255);
@@ -317,6 +315,7 @@ function lightDownAll(){
 }
 
 function loaded(){
+ drawChart();
   console.log("loaded");
 }
 
