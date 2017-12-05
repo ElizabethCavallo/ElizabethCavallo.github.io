@@ -45,25 +45,11 @@ function preload(){
 
   //Pumped Playlist start
     Psong1 = loadSound("Pumped/Whatever_it_takes.mp3", loaded);
-    Psong2 = loadSound("Pumped/Five_more_hours.mp3", loaded);
-    Psong3 = loadSound("Pumped/Freaks.mp3", loaded);
-    Psong4 = loadSound("Pumped/Light_it_up.mp3", loaded);
-    Psong5 = loadSound("Pumped/Sweet_Dreams.mp3", loaded);
-    Psong6 = loadSound("Pumped/Sexy_and_I_Know_it.mp3", loaded);
-    Psong7 = loadSound("Pumped/Thunder_ID.mp3", loaded);
-    Psong8 = loadSound("Pumped/Watch_Me_Whip.mp3", loaded);
+
 
 
   //Romantic Playlist start
     Rsong1 = loadSound("Romantic/Like_I_Can.mp3", loaded);
-    Rsong2 = loadSound("Romantic/Rich_love.mp3", loaded);
-    Rsong3 = loadSound("Romantic/Boys_In_The_Street.mp3", loaded);
-    Rsong4 = loadSound("Romantic/Every_Little_Thing_She_Does.mp3", loaded);
-    Rsong5 = loadSound("Romantic/Monaco.mp3", loaded);
-    Rsong6 = loadSound("Romantic/Shake_it_out.mp3", loaded);
-    Rsong7 = loadSound("Romantic/Shape_of_you.mp3", loaded);
-    Rsong8 = loadSound("Romantic/Summer_air.mp3", loaded);
-
 }
 
 function setup() {
@@ -103,13 +89,13 @@ function setup() {
 //Mellow Playlist
 
 
-    // Msong2 = loadSound("Mellow/Happier.mp3", loaded);
-    // Msong3 = loadSound("Mellow/Castle_on_the_hill.mp3", loaded);
-    // Msong4 = loadSound("Mellow/Eraser.mp3", loaded);
-    // Msong5 = loadSound("Mellow/Everybody_talks.mp3", loaded);
-    // Msong6 = loadSound("Mellow/Hey_There_Delilah.mp3", loaded);
-    // Msong7 = loadSound("Mellow/Photograph.mp3", loaded);
-    // Msong8 = loadSound("Mellow/Pill_in_Ibiza.mp3", loaded);
+        Msong2 = loadSound("Mellow/Happier.mp3", loaded);
+        Msong3 = loadSound("Mellow/Castle_on_the_hill.mp3", loaded);
+        Msong4 = loadSound("Mellow/Eraser.mp3", loaded);
+        Msong5 = loadSound("Mellow/Summer_air.mp3", loaded);
+        Msong6 = loadSound("Mellow/Hey_There_Delilah.mp3", loaded);
+        Msong7 = loadSound("Mellow/Photograph.mp3", loaded);
+        Msong8 = loadSound("Mellow/Pill_in_Ibiza.mp3", loaded);
     // Msong9 = loadSound("Mellow/Rich_love.mp3", loaded);
     // Msong10 = loadSound("Mellow/Summer_air.mp3", loaded);
     // Msong11 = loadSound("Mellow/Summertime_Sadness.mp3", loaded);
@@ -118,13 +104,14 @@ function setup() {
 
 //Pumped Playlist
 
-    // Psong2 = loadSound("Pumped/Five_more_hours.mp3", loaded);
-    // Psong3 = loadSound("Pumped/Freaks.mp3", loaded);
-    // Psong4 = loadSound("Pumped/Light_it_up.mp3", loaded);
-    // Psong5 = loadSound("Pumped/Moves_like_Jagger.mp3", loaded);
-    // Psong6 = loadSound("Pumped/Sexy_and_I_Know_it.mp3", loaded);
-    // Psong7 = loadSound("Pumped/Thunder_ID.mp3", loaded);
-    // Psong8 = loadSound("Pumped/Watch_Me_Whip.mp3", loaded);
+    
+    Psong2 = loadSound("Pumped/Five_more_hours.mp3", loaded);
+    Psong3 = loadSound("Pumped/Freaks.mp3", loaded);
+    Psong4 = loadSound("Pumped/Light_it_up.mp3", loaded);
+    Psong5 = loadSound("Pumped/Sweet_Dreams.mp3", loaded);
+    Psong6 = loadSound("Pumped/Sexy_and_I_Know_it.mp3", loaded);
+    Psong7 = loadSound("Pumped/Thunder_ID.mp3", loaded);
+    Psong8 = loadSound("Pumped/Watch_Me_Whip.mp3", loaded);
     // Psong9 = loadSound("Pumped/Whatever_it_takes.mp3", loaded);
     // Psong10 = loadSound("Pumped/Sweet_Dreams.mp3", loaded);
     // Psong11 = loadSound("Pumped/Light_em_up.mp3", loaded);
@@ -132,13 +119,15 @@ function setup() {
     // Psong13 = loadSound("Pumped/Believer_ID.mp3", loaded); 
 
 //Romantic Playlist
-    // Rsong2 = loadSound("Romantic/Rich_love.mp3", loaded);
-    // Rsong3 = loadSound("Romantic/Boys_In_The_Street.mp3", loaded);
-    // Rsong4 = loadSound("Romantic/Every_Little_Thing_She_Does.mp3", loaded);
-    // Rsong5 = loadSound("Romantic/Monaco.mp3", loaded);
-    // Rsong6 = loadSound("Romantic/Shake_it_out.mp3", loaded);
-    // Rsong7 = loadSound("Romantic/Shape_of_you.mp3", loaded);
-    // Rsong8 = loadSound("Romantic/Shut_up_and_Dance.mp3", loaded);
+    
+        Rsong2 = loadSound("Romantic/Rich_love.mp3", loaded);
+    Rsong3 = loadSound("Romantic/Boys_In_The_Street.mp3", loaded);
+    Rsong4 = loadSound("Romantic/Every_Little_Thing_She_Does.mp3", loaded);
+    Rsong5 = loadSound("Romantic/Monaco.mp3", loaded);
+    Rsong6 = loadSound("Romantic/Shake_it_out.mp3", loaded);
+    Rsong7 = loadSound("Romantic/Shape_of_you.mp3", loaded);
+    Rsong8 = loadSound("Romantic/Summer_air.mp3", loaded);
+
     // Rsong9 = loadSound("Romantic/Summer_air.mp3", loaded);
     // Rsong10 = loadSound("Romantic/Lips_of_an_angel.mp3", loaded);
     // Rsong11 = loadSound("Romantic/Lips_of_an_angel.mp3", loaded);
