@@ -182,7 +182,7 @@ function voteUp(pollOptionKey) {
         happy = false;
         pumped = false;
         romantic = false;
-        stopMusic();
+//         stopMusic();
             skipH();
             skipP();
             skipR();
@@ -198,7 +198,7 @@ function voteUp(pollOptionKey) {
             skipM();
             skipP();
             skipR();
-         stopMusic();
+//          stopMusic();
            
         Happy();
     }
@@ -209,7 +209,7 @@ function voteUp(pollOptionKey) {
         happy = false;
         pumped = true;
         romantic = false;
-         stopMusic();
+//          stopMusic();
             skipM();
             skipH();
             skipR();
@@ -222,7 +222,7 @@ function voteUp(pollOptionKey) {
         happy = false;
         pumped = false;
         romantic = true;
-           stopMusic();
+//            stopMusic();
             skipM();
             skipH();
            skipP();
