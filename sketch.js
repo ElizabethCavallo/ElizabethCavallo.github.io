@@ -236,7 +236,7 @@ console.log(pollOptions.eon[pollOptionKey]);
 }
 }
 
-embed
+//embed
 function drawChart() {
     eon.chart({
         pubnub: pb, //same pubnub object, gets data from channel
