@@ -24,8 +24,8 @@ var pollOptions = {
 
 var pb = PUBNUB.init({
     publish_key: pubKey,
-    subscribe_key: subKey
-//     ssl : (('https:' == document.location.protocol) ? true : false)
+    subscribe_key: subKey,
+	ssl : (('https:' == document.location.protocol) ? true : false)
 });
 
 function preload(){
