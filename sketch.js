@@ -237,36 +237,36 @@ console.log(pollOptions.eon[pollOptionKey]);
 }
 
 //embed
-function drawChart() {
-    eon.chart({
-        pubnub: pb, //same pubnub object, gets data from channel
-        channel: chan, //same channel
-        history: true,
-        generate: {
-            bindto: '#chart',
-            data: {
-                labels: true,
-                type: 'bar',
-                colors: {
-                    'Happy': '#3c3c3c',
-                    'Mellow': '#f0f0f0',
-                    'Pumped': '#787878',
-                    'Romantic': '#b4b4b4'     
-                }
-            },
-            bar: {
-                width: {
-                    ratio: .75
-                }
-            },
-            tooltip: {
-                show: false //hover over and see chart of counts
-            }
-        }
-    });
-  }
+// function drawChart() {
+//     eon.chart({
+//         pubnub: pb, //same pubnub object, gets data from channel
+//         channel: chan, //same channel
+//         history: true,
+//         generate: {
+//             bindto: '#chart',
+//             data: {
+//                 labels: true,
+//                 type: 'bar',
+//                 colors: {
+//                     'Happy': '#3c3c3c',
+//                     'Mellow': '#f0f0f0',
+//                     'Pumped': '#787878',
+//                     'Romantic': '#b4b4b4'     
+//                 }
+//             },
+//             bar: {
+//                 width: {
+//                     ratio: .75
+//                 }
+//             },
+//             tooltip: {
+//                 show: false //hover over and see chart of counts
+//             }
+//         }
+//     });
+//   }
 
-drawChart();
+// drawChart();
 
 function draw() {
   background(0);
