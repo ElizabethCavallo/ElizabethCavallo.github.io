@@ -266,7 +266,7 @@ function drawChart() {
     });
   }
 
-// drawChart();
+ drawChart();
 
 // function draw() {
 //   background(0);
