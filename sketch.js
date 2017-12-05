@@ -45,14 +45,14 @@ function setup() {
 
         amplitude = new p5.Amplitude()
     
-    var buttonColor;   
-    for(key in pollOptions.eon) {
-        var b = document.createElement('BUTTON');
-        b.setAttribute('id', 'button' + key);
-        b.setAttribute('style', 'left:10%;width:20%;margin-left:4%;margin-top:4%;margin-bottom:5%;background-color:buttonColor;color:white;'); 
-        b.innerHTML = key;
-        b.addEventListener("click", voteUp(key)); 
-        document.body.appendChild(b);
+//     var buttonColor;   
+//     for(key in pollOptions.eon) {
+//         var b = document.createElement('BUTTON');
+//         b.setAttribute('id', 'button' + key);
+//         b.setAttribute('style', 'left:10%;width:20%;margin-left:4%;margin-top:4%;margin-bottom:5%;background-color:buttonColor;color:white;'); 
+//         b.innerHTML = key;
+//         b.addEventListener("click", voteUp(key)); 
+//         document.body.appendChild(b);
 
     } //for
 
