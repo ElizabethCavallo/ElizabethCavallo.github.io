@@ -43,8 +43,7 @@ function preload(){
 function setup() {
   myCanvas = createCanvas(600, 600);
     myCanvas.parent('myContainer');
- amplitude = new p5.Amplitude();
-    
+
     var buttonColor;   
     for(key in pollOptions.eon) {
         var b = document.createElement('BUTTON');
@@ -158,7 +157,6 @@ function publishResults() {
     });
 } //publishResults()
 
-// Chart();
 
 function voteUp(pollOptionKey) {
     return function() {
@@ -237,43 +235,39 @@ console.log(pollOptions.eon[pollOptionKey]);
 }
 }
 
-//embed
-// function Chart() {
-//     eon.chart({
-//         pubnub: pb, //same pubnub object, gets data from channel
-//         channel: chan, //same channel
-//         history: true,
-//         generate: {
-//             bindto: '#chart',
-//             data: {
-//                 labels: true,
-//                 type: 'bar',
-//                 colors: {
-//                     'Happy': '#3c3c3c',
-//                     'Mellow': '#f0f0f0',
-//                     'Pumped': '#787878',
-//                     'Romantic': '#b4b4b4'     
-//                 }
-//             },
-//             bar: {
-//                 width: {
-//                     ratio: .75
-//                 }
-//             },
-//             tooltip: {
-//                 show: false //hover over and see chart of counts
-//             }
-//         }
-//     });
-//   }
 
-function draw() {
-  background(0);
-  fill(255);
-  var level = amplitude.getLevel();
-  var size = map(level, 0, 1, 0, 200);
-  ellipse(300, 300, size, size);
-}
+
+//embed
+function Chart() {
+    eon.chart({
+        pubnub: pb, //same pubnub object, gets data from channel
+        channel: chan, //same channel
+        history: true,
+        generate: {
+            bindto: '#chart',
+            data: {
+                labels: true,
+                type: 'bar',
+                colors: {
+                    'Happy': '#3c3c3c',
+                    'Mellow': '#f0f0f0',
+                    'Pumped': '#787878',
+                    'Romantic': '#b4b4b4'     
+                }
+            },
+            bar: {
+                width: {
+                    ratio: .75
+                }
+            },
+            tooltip: {
+                show: false //hover over and see chart of counts
+            }
+        }
+    });
+  }
+
+ Chart();
 
 function lightUpRed(){
  var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
