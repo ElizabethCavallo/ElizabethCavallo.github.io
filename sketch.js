@@ -211,8 +211,8 @@ function voteUp(pollOptionKey) {
         romantic = false;
          stopMusic();
             skipM();
-            skipH():
-            skipR():
+            skipH();
+            skipR();
         Pumped();
     }
        if (pollOptions.eon.Romantic >= pollOptions.eon.Happy && pollOptions.eon.Romantic >= pollOptions.eon.Pumped && 
@@ -223,9 +223,9 @@ function voteUp(pollOptionKey) {
         pumped = false;
         romantic = true;
            stopMusic();
-            skipM():
+            skipM();
             skipH();
-           skipP():
+           skipP();
         Romantic();
     } //JS closure each button has unique function 
 
