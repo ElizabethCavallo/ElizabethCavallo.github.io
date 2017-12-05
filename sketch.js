@@ -227,7 +227,7 @@ function voteUp(pollOptionKey) {
 //            skipP();
 //         Romantic();
     } //JS closure each button has unique function 
-// console.log(pollOptions.eon[pollOptionKey]);
+console.log(pollOptions.eon[pollOptionKey]);
     if (mellow == true){
       console.lo("mellow = true");
         Mellow();
