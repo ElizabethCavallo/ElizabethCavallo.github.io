@@ -277,40 +277,40 @@ function draw() {
 }
 
 function lightUpRed(){
- var pinR = b.pin(9, 'DIGITAL', 'OUTPUT');
+ var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
  // var pinM = b.pin(7, 'DIGITAL', 'INPUT');
 
      pinR.write('HIGH');
 }
 
 function lightUpGreen(){
- var pinG = b.pin(10, 'DIGITAL', 'OUTPUT');
+ var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
      pinG.write('HIGH');
 }
 
 function lightUpBlue(){
-  var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+  var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
      pinB.write('HIGH');
 }
 
 function lightUpPurple(){
-  var pinR = b.pin(9, 'DIGITAL', 'OUTPUT');
-    var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+  var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
+    var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
      pinR.write('HIGH');
      pinB.write('HIGH');
 }
 
 function lightUpTeal(){
-  var pinG = b.pin(10, 'DIGITAL', 'OUTPUT');
-    var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+  var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
+    var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
      pinG.write('HIGH');
      pinB.write('HIGH');
 }
 
 function lightDownAll(){
-	var pinR = b.pin(9, 'DIGITAL', 'OUTPUT');
-	  var pinG = b.pin(10, 'DIGITAL', 'OUTPUT');
-      var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+	var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
+	  var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
+      var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
      pinR.write('LOW');
 	  pinG.write('LOW');
 	   pinB.write('LOW');
