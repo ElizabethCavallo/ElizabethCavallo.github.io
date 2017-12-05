@@ -315,7 +315,7 @@ function lightDownAll(){
 	   pinB.write('LOW');
 }
 
-function loaded();
+function loaded(){
   console.log("loaded");
 }
 
