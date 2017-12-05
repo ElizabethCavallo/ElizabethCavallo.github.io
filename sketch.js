@@ -13,8 +13,6 @@ var mellow = false;
 var happy = false;
 var pumped = false;
 var romantic = false;
-var PUBNUB;
-
 var pollOptions = {
     eon: {
         "Happy" : 0.0, 
@@ -23,7 +21,6 @@ var pollOptions = {
         "Romantic" : 0.03,
     }
 };
-
 var pb = PUBNUB.init({
     publish_key: pubKey,
     subscribe_key: subKey
@@ -31,23 +28,12 @@ var pb = PUBNUB.init({
 });
 
 function preload(){
-
-
   //Happy Playlist start
     Hsong1 = loadSound("Happy/LA_Hallucinations.mp3", loaded);
-
-
-
   //Mellow Playlist start
     Msong1 = loadSound("Mellow/Little_talks.mp3", loaded);
-   
-
-
   //Pumped Playlist start
     Psong1 = loadSound("Pumped/Whatever_it_takes.mp3", loaded);
-
-
-
   //Romantic Playlist start
     Rsong1 = loadSound("Romantic/Like_I_Can.mp3", loaded);
 }
