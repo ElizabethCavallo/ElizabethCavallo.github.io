@@ -1,4 +1,5 @@
 var a = p5.board('COM3', 'arduino'); 
+var mic;
 var button;
 var startbutton
 var hHeight, mHeight, pHeight, rHeight;
