@@ -431,8 +431,6 @@ function Pumped(){
       Psong6.stop();
       Psong7.stop();
       Psong8.stop();
-      Psong9.stop();
-      Psong10.stop();
     }
 
   function startPlayingP(){
