@@ -273,7 +273,7 @@ function draw() {
   fill(255);
   var level = amplitude.getLevel();
   var size = map(level, 0, 1, 0, 200);
-  ellipse(width/2, height/2, size, size);
+  ellipse(300, 300, size, size);
 }
 
 function lightUpRed(){
