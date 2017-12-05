@@ -3,11 +3,11 @@ var button;
 var startbutton
 var hHeight, mHeight, pHeight, rHeight;
 var myCanvas;
-// var pubKey = "pub-c-99f1bc47-cbb8-4632-870d-79c46af4fbe8";
-// var subKey = "sub-c-aac1dc62-d47d-11e7-b83f-86d028961179";
+var pubKey = "pub-c-99f1bc47-cbb8-4632-870d-79c46af4fbe8";
+var subKey = "sub-c-aac1dc62-d47d-11e7-b83f-86d028961179";
 //It only works with the examples sub keys and I'm not sure why
-var pubKey = "pub-c-568f9a32-f440-4d58-9cee-e23cd1d12e7a";
-var subKey = "sub-c-2e615be4-439b-11e6-971e-02ee2ddab7fe";
+// var pubKey = "pub-c-568f9a32-f440-4d58-9cee-e23cd1d12e7a";
+// var subKey = "sub-c-2e615be4-439b-11e6-971e-02ee2ddab7fe";
 var chan = "Spectra";
 var mellow = false;
 var happy = false;
@@ -21,6 +21,7 @@ var pollOptions = {
         "Romantic" : 0.03,
     }
 };
+
 var pb = PUBNUB.init({
     publish_key: pubKey,
     subscribe_key: subKey
