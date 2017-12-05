@@ -120,7 +120,7 @@ function setup() {
 
 //Romantic Playlist
     
-        Rsong2 = loadSound("Romantic/Rich_love.mp3", loaded);
+    Rsong2 = loadSound("Romantic/Rich_love.mp3", loaded);
     Rsong3 = loadSound("Romantic/Boys_In_The_Street.mp3", loaded);
     Rsong4 = loadSound("Romantic/Every_Little_Thing_She_Does.mp3", loaded);
     Rsong5 = loadSound("Romantic/Monaco.mp3", loaded);
@@ -182,6 +182,7 @@ function voteUp(pollOptionKey) {
         happy = false;
         pumped = false;
         romantic = false;
+        stopMusic();
         Mellow();
     }
         if (pollOptions.eon.Happy >= pollOptions.eon.Mellow && pollOptions.eon.Happy >= pollOptions.eon.Pumped && 
@@ -191,6 +192,7 @@ function voteUp(pollOptionKey) {
         happy = true;
         pumped = false;
         romantic = false;
+         stopMusic();
         Happy();
     }
         if (pollOptions.eon.Pumped >= pollOptions.eon.Happy && pollOptions.eon.Pumped >= pollOptions.eon.Mellow && 
@@ -200,6 +202,7 @@ function voteUp(pollOptionKey) {
         happy = false;
         pumped = true;
         romantic = false;
+         stopMusic();
         Pumped();
     }
        if (pollOptions.eon.Romantic >= pollOptions.eon.Happy && pollOptions.eon.Romantic >= pollOptions.eon.Pumped && 
@@ -209,6 +212,7 @@ function voteUp(pollOptionKey) {
         happy = false;
         pumped = false;
         romantic = true;
+           stopMusic();
         Romantic();
     } //JS closure each button has unique function 
 
