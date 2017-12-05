@@ -229,7 +229,7 @@ function voteUp(pollOptionKey) {
     } //JS closure each button has unique function 
 console.log(pollOptions.eon[pollOptionKey]);
     if (mellow == true){
-      console.lo("mellow = true");
+      console.log("mellow = true");
         Mellow();
     }
         if(happy == true){
