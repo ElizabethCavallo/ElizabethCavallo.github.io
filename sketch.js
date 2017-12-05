@@ -43,8 +43,7 @@ function preload(){
 function setup() {
   myCanvas = createCanvas(600, 600);
     myCanvas.parent('myContainer');
-
-        amplitude = new p5.Amplitude()
+ amplitude = new p5.Amplitude();
     
     var buttonColor;   
     for(key in pollOptions.eon) {
