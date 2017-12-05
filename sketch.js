@@ -54,6 +54,8 @@ function preload(){
 function setup() {
   myCanvas = createCanvas(600, 50);
     myCanvas.parent('myContainer');
+    
+    ssl : (('https:' == document.location.protocol) ? true : false)
 
     var buttonColor;   
     for(key in pollOptions.eon) {
