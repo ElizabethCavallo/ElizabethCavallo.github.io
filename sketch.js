@@ -35,24 +35,12 @@ function preload(){
 
   //Happy Playlist start
     Hsong1 = loadSound("Happy/LA_Hallucinations.mp3", loaded);
-    Hsong2 = loadSound("Happy/All_Night.mp3", loaded);
-    Hsong3 = loadSound("Happy/American_Dream.mp3", loaded);
-    Hsong4 = loadSound("Happy/Classic.mp3", loaded);
-    Hsong5 = loadSound("Happy/Come_Here_to_Dance.mp3", loaded);
-    Hsong6 = loadSound("Happy/Counting_Stars.mp3", loaded);
-    Hsong7 = loadSound("Happy/Cut_to_the_Feeling.mp3", loaded);
-    Hsong8 = loadSound("Happy/Hymn_for_the_Weekend.mp3", loaded);
+
 
 
   //Mellow Playlist start
     Msong1 = loadSound("Mellow/Little_talks.mp3", loaded);
-    Msong2 = loadSound("Mellow/Happier.mp3", loaded);
-    Msong3 = loadSound("Mellow/Castle_on_the_hill.mp3", loaded);
-    Msong4 = loadSound("Mellow/Eraser.mp3", loaded);
-    Msong5 = loadSound("Mellow/Everybody_talks.mp3", loaded);
-    Msong6 = loadSound("Mellow/Hey_There_Delilah.mp3", loaded);
-    Msong7 = loadSound("Mellow/Photograph.mp3", loaded);
-    Msong8 = loadSound("Mellow/Pill_in_Ibiza.mp3", loaded);
+   
 
 
   //Pumped Playlist start
@@ -94,13 +82,13 @@ function setup() {
     } //for
 
 //Happy Playlist
-    // Hsong2 = loadSound("Happy/All_Night.mp3", loaded);
-    // Hsong3 = loadSound("Happy/American_Dream.mp3", loaded);
-    // Hsong4 = loadSound("Happy/Classic.mp3", loaded);
-    // Hsong5 = loadSound("Happy/Come_Here_to_Dance.mp3", loaded);
-    // Hsong6 = loadSound("Happy/Counting_Stars.mp3", loaded);
-    // Hsong7 = loadSound("Happy/Cut_to_the_Feeling.mp3", loaded);
-    // Hsong8 = loadSound("Happy/Everybody_talks.mp3", loaded);
+    Hsong2 = loadSound("Happy/All_Night.mp3", loaded);
+    Hsong3 = loadSound("Happy/American_Dream.mp3", loaded);
+    Hsong4 = loadSound("Happy/Classic.mp3", loaded);
+    Hsong5 = loadSound("Happy/Come_Here_to_Dance.mp3", loaded);
+    Hsong6 = loadSound("Happy/Counting_Stars.mp3", loaded);
+    Hsong7 = loadSound("Happy/Cut_to_the_Feeling.mp3", loaded);
+    Hsong8 = loadSound("Happy/Hymn_for_the_Weekend.mp3", loaded)
     // Hsong9 = loadSound("Happy/Summer_air.mp3", loaded);
     // Hsong10 = loadSound("Happy/Hymn_for_the_Weekend.mp3", loaded);
     // Hsong11 = loadSound("Happy/I_Love_it.mp3", loaded);
