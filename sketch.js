@@ -158,6 +158,7 @@ function publishResults() {
     });
 } //publishResults()
 
+ drawChart();
 
 function voteUp(pollOptionKey) {
     return function() {
@@ -314,8 +315,7 @@ function lightDownAll(){
 	   pinB.write('LOW');
 }
 
-function loaded(){
- drawChart();
+function loaded();
   console.log("loaded");
 }
 
