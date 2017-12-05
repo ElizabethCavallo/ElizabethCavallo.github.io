@@ -227,18 +227,22 @@ function voteUp(pollOptionKey) {
 //            skipP();
 //         Romantic();
     } //JS closure each button has unique function 
-
+console.log(pollOptions.eon[pollOptionKey);
     if (mellow == true){
-      console.log("mellow = true");
+      console.lo("mellow = true");
+        Mellow();
     }
         if(happy == true){
       console.log("happy = true");
+            Happy();
     }
         if (pumped == true){
       console.log("pumped = true");
+           Pumped();
     }
         if (romantic == true){
       console.log("romantic = true");
+            Romantic():
     }
 }
 }
