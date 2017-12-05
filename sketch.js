@@ -34,7 +34,7 @@ function preload(){
   //Mellow Playlist start
     Msong1 = loadSound("Mellow/Little_talks.mp3", loaded);
   //Pumped Playlist start
-    Psong1 = loadSound("Pumped/Whatever_it_takes.mp3", loaded);
+    Psong1 = loadSound("Pumped/Thunder_ID.mp3", loaded);
   //Romantic Playlist start
     Rsong1 = loadSound("Romantic/Like_I_Can.mp3", loaded);
 }
@@ -99,7 +99,7 @@ function setup() {
     Psong4 = loadSound("Pumped/Light_it_up.mp3", loaded);
     Psong5 = loadSound("Pumped/Sweet_Dreams.mp3", loaded);
     Psong6 = loadSound("Pumped/Sexy_and_I_Know_it.mp3", loaded);
-    Psong7 = loadSound("Pumped/Thunder_ID.mp3", loaded);
+    Psong7 = loadSound("Pumped/Whatever_it_takes.mp3", loaded);
     Psong8 = loadSound("Pumped/Watch_Me_Whip.mp3", loaded);
     // Psong9 = loadSound("Pumped/Whatever_it_takes.mp3", loaded);
     // Psong10 = loadSound("Pumped/Sweet_Dreams.mp3", loaded);
