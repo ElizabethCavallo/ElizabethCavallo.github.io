@@ -1,4 +1,4 @@
-var b = p5.board('COM3', 'arduino'); 
+var a = p5.board('COM3', 'arduino'); 
 var button;
 var startbutton
 var hHeight, mHeight, pHeight, rHeight;
@@ -43,6 +43,8 @@ function setup() {
   myCanvas = createCanvas(600, 50);
     myCanvas.parent('myContainer');
 
+        amplitude = new p5.Amplitude()
+    
     var buttonColor;   
     for(key in pollOptions.eon) {
         var b = document.createElement('BUTTON');
@@ -265,6 +267,54 @@ function drawChart() {
   }
 
 drawChart();
+
+function draw() {
+  background(0);
+  fill(255);
+  var level = amplitude.getLevel();
+  var size = map(level, 0, 1, 0, 200);
+  ellipse(width/2, height/2, size, size);
+}
+
+function lightUpRed(){
+ var pinR = b.pin(9, 'DIGITAL', 'OUTPUT');
+ // var pinM = b.pin(7, 'DIGITAL', 'INPUT');
+
+     pinR.write('HIGH');
+}
+
+function lightUpGreen(){
+ var pinG = b.pin(10, 'DIGITAL', 'OUTPUT');
+     pinG.write('HIGH');
+}
+
+function lightUpBlue(){
+  var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+     pinB.write('HIGH');
+}
+
+function lightUpPurple(){
+  var pinR = b.pin(9, 'DIGITAL', 'OUTPUT');
+    var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+     pinR.write('HIGH');
+     pinB.write('HIGH');
+}
+
+function lightUpTeal(){
+  var pinG = b.pin(10, 'DIGITAL', 'OUTPUT');
+    var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+     pinG.write('HIGH');
+     pinB.write('HIGH');
+}
+
+function lightDownAll(){
+	var pinR = b.pin(9, 'DIGITAL', 'OUTPUT');
+	  var pinG = b.pin(10, 'DIGITAL', 'OUTPUT');
+      var pinB = b.pin(11, 'DIGITAL', 'OUTPUT');
+     pinR.write('LOW');
+	  pinG.write('LOW');
+	   pinB.write('LOW');
+}
 
 function loaded(){
   console.log("loaded");
