@@ -183,9 +183,9 @@ function voteUp(pollOptionKey) {
         pumped = false;
         romantic = false;
         stopMusic();
-//             skipH();
-//             skipP();
-//             skipR();
+            skipH();
+            skipP();
+            skipR();
         Mellow();
     }
         if (pollOptions.eon.Happy >= pollOptions.eon.Mellow && pollOptions.eon.Happy >= pollOptions.eon.Pumped && 
@@ -195,9 +195,9 @@ function voteUp(pollOptionKey) {
         happy = true;
         pumped = false;
         romantic = false;
-//             skipM();
-//             skipP();
-//             skipR();
+            skipM();
+            skipP();
+            skipR();
          stopMusic();
            
         Happy();
@@ -210,9 +210,9 @@ function voteUp(pollOptionKey) {
         pumped = true;
         romantic = false;
          stopMusic();
-//             skipM();
-//             skipH();
-//             skipR();
+            skipM();
+            skipH();
+            skipR();
         Pumped();
     }
        if (pollOptions.eon.Romantic >= pollOptions.eon.Happy && pollOptions.eon.Romantic >= pollOptions.eon.Pumped && 
@@ -223,9 +223,9 @@ function voteUp(pollOptionKey) {
         pumped = false;
         romantic = true;
            stopMusic();
-//             skipM();
-//             skipH();
-//            skipP();
+            skipM();
+            skipH();
+           skipP();
         Romantic();
     } //JS closure each button has unique function 
 
