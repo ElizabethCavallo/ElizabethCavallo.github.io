@@ -242,7 +242,7 @@ console.log(pollOptions.eon[pollOptionKey]);
     }
         if (romantic == true){
       console.log("romantic = true");
-            Romantic():
+            Romantic();
     }
 }
 }
