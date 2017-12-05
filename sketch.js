@@ -40,7 +40,7 @@ function preload(){
 }
 
 function setup() {
-  myCanvas = createCanvas(600, 50);
+  myCanvas = createCanvas(600, 600);
     myCanvas.parent('myContainer');
 
         amplitude = new p5.Amplitude()
@@ -158,7 +158,7 @@ function publishResults() {
     });
 } //publishResults()
 
-// drawChart();
+// Chart();
 
 function voteUp(pollOptionKey) {
     return function() {
@@ -238,7 +238,7 @@ console.log(pollOptions.eon[pollOptionKey]);
 }
 
 //embed
-// function drawChart() {
+// function Chart() {
 //     eon.chart({
 //         pubnub: pb, //same pubnub object, gets data from channel
 //         channel: chan, //same channel
@@ -267,13 +267,13 @@ console.log(pollOptions.eon[pollOptionKey]);
 //     });
 //   }
 
-// function draw() {
-//   background(0);
-//   fill(255);
-//   var level = amplitude.getLevel();
-//   var size = map(level, 0, 1, 0, 200);
-//   ellipse(width/2, height/2, size, size);
-// }
+function draw() {
+  background(0);
+  fill(255);
+  var level = amplitude.getLevel();
+  var size = map(level, 0, 1, 0, 200);
+  ellipse(width/2, height/2, size, size);
+}
 
 function lightUpRed(){
  var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
