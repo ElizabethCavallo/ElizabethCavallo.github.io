@@ -273,45 +273,45 @@ if (mellow == true){
 
 //  Chart();
 
-function lightUpRed(){
- var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
- // var pinM = b.pin(7, 'DIGITAL', 'INPUT');
+// function lightUpRed(){
+//  var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
+//  // var pinM = b.pin(7, 'DIGITAL', 'INPUT');
 
-     pinR.write('HIGH');
-}
+//      pinR.write('HIGH');
+// }
 
-function lightUpGreen(){
- var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
-     pinG.write('HIGH');
-}
+// function lightUpGreen(){
+//  var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
+//      pinG.write('HIGH');
+// }
 
-function lightUpBlue(){
-  var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
-     pinB.write('HIGH');
-}
+// function lightUpBlue(){
+//   var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
+//      pinB.write('HIGH');
+// }
 
-function lightUpPurple(){
-  var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
-    var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
-     pinR.write('HIGH');
-     pinB.write('HIGH');
-}
+// function lightUpPurple(){
+//   var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
+//     var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
+//      pinR.write('HIGH');
+//      pinB.write('HIGH');
+// }
 
-function lightUpTeal(){
-  var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
-    var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
-     pinG.write('HIGH');
-     pinB.write('HIGH');
-}
+// function lightUpTeal(){
+//   var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
+//     var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
+//      pinG.write('HIGH');
+//      pinB.write('HIGH');
+// }
 
-function lightDownAll(){
-	var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
-	  var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
-      var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
-     pinR.write('LOW');
-	  pinG.write('LOW');
-	   pinB.write('LOW');
-}
+// function lightDownAll(){
+// 	var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
+// 	  var pinG = a.pin(10, 'DIGITAL', 'OUTPUT');
+//       var pinB = a.pin(11, 'DIGITAL', 'OUTPUT');
+//      pinR.write('LOW');
+// 	  pinG.write('LOW');
+// 	   pinB.write('LOW');
+// }
 
 function loaded(){
   console.log("loaded");
