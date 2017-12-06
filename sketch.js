@@ -241,37 +241,37 @@ if (mellow == true){
 
 }
 
-//embed
-function Chart() {
-    eon.chart({
-        pubnub: pb, //same pubnub object, gets data from channel
-        channel: chan, //same channel
-        history: true,
-        generate: {
-            bindto: '#chart',
-            data: {
-                labels: true,
-                type: 'bar',
-                colors: {
-                    'Happy': '#3c3c3c',
-                    'Mellow': '#f0f0f0',
-                    'Pumped': '#787878',
-                    'Romantic': '#b4b4b4'     
-                }
-            },
-            bar: {
-                width: {
-                    ratio: .75
-                }
-            },
-            tooltip: {
-                show: false //hover over and see chart of counts
-            }
-        }
-    });
-  }
+// //embed
+// function Chart() {
+//     eon.chart({
+//         pubnub: pb, //same pubnub object, gets data from channel
+//         channel: chan, //same channel
+//         history: true,
+//         generate: {
+//             bindto: '#chart',
+//             data: {
+//                 labels: true,
+//                 type: 'bar',
+//                 colors: {
+//                     'Happy': '#3c3c3c',
+//                     'Mellow': '#f0f0f0',
+//                     'Pumped': '#787878',
+//                     'Romantic': '#b4b4b4'     
+//                 }
+//             },
+//             bar: {
+//                 width: {
+//                     ratio: .75
+//                 }
+//             },
+//             tooltip: {
+//                 show: false //hover over and see chart of counts
+//             }
+//         }
+//     });
+//   }
 
- Chart();
+//  Chart();
 
 function lightUpRed(){
  var pinR = a.pin(9, 'DIGITAL', 'OUTPUT');
