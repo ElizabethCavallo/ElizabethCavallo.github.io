@@ -216,26 +216,30 @@ function voteUp(pollOptionKey) {
 //         Romantic();
     } //JS closure each button has unique function 
 console.log(pollOptions.eon[pollOptionKey]);
-    if (mellow == true){
+}
+}
+
+function testType(){
+
+if (mellow == true){
       console.log("mellow = true");
-        Mellow();
+      startPlayingM();
     }
         if(happy == true){
       console.log("happy = true");
-            Happy();
+      startPlayingH();
     }
         if (pumped == true){
       console.log("pumped = true");
-           Pumped();
+      startPlayingP();
     }
         if (romantic == true){
       console.log("romantic = true");
-            Romantic();
+      startPlayingR();
     }
-}
-}
 
 
+}
 
 //embed
 function Chart() {
