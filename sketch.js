@@ -31,7 +31,7 @@ var pb = PUBNUB.init({
 
 function preload(){
   //Happy Playlist start
-    Hsong1 = loadSound("Happy/LA_Hallucinations.mp3", loaded);
+    Hsong1 = loadSound("Happy/Classic.mp3", loaded);
   //Mellow Playlist start
     Msong1 = loadSound("Mellow/Little_talks.mp3", loaded);
   //Pumped Playlist start
@@ -58,7 +58,7 @@ function setup() {
 //Happy Playlist
     Hsong2 = loadSound("Happy/All_Night.mp3", loaded);
     Hsong3 = loadSound("Happy/American_Dream.mp3", loaded);
-    Hsong4 = loadSound("Happy/Classic.mp3", loaded);
+    Hsong4 = loadSound("Happy/LA_Hallucinations.mp3", loaded);
     Hsong5 = loadSound("Happy/Come_Here_to_Dance.mp3", loaded);
     Hsong6 = loadSound("Happy/Counting_Stars.mp3", loaded);
     Hsong7 = loadSound("Happy/Cut_to_the_Feeling.mp3", loaded);
